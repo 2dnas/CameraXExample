@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The bottom layer is blue square.-->
+    <item
+        android:left="5dp"
+        android:top="5dp"
+        android:right="5dp"
+        android:bottom="5dp">
+        <shape android:shape="oval">
+            <stroke android:color="#adadad" android:width="5dp"/>
+            <solid android:color="#000000" />
+            <size android:height="200dp"
+                android:width="200dp" />
+        </shape>
+    </item>
+    <item
+        android:left="15dp"
+        android:top="15dp"
+        android:right="15dp"
+        android:bottom="15dp">
+        <shape
+            android:shape="oval"
+            android:thickness="25dp"
+            android:useLevel="false">
+            <solid android:color="#adadad" />
+        </shape>
+    </item>
+</layer-list>
